@@ -44,7 +44,7 @@ response.then((value)=>{
                <span>ACTORS :- ${element["#ACTORS"]}</span>
               <p><b>Release:- </b>${element["#YEAR"]}</p>
                <a href="${element["#IMDB_URL"]}" 
-   class="btn btn-primary" 
+   class="btn btn-outline-primary mb-2" 
    target="_blank">
   ▶️ Play Video
 </a>
