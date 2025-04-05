@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Disfruta de Netflix, películas y series en streaming en tu smart TV, consola, PC, Mac, móvil, tableta y más dispositivos."/>
+    <title>Netflix-A movie Sites</title>
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/floating-labels/" >
+ 
+    <link href="css/style.css" rel="stylesheet" /> 
+  </head>
+
+  <body>
+    <main class="container-fluid">
+      <!---->
+      <section id="backGround">
+        <div class="container-fluid relative">
+          <header>
+            <img src="img/logo-Netflix.png" alt="Responsive image LOGO" class="img-fluid" />
+            <button type="button" class="btn btn-danger">Iniciar sesión</button>
+          </header>
+        </div>
+        <div class="jumbotron jumbotron-fluid relative mt-5">
+          <h1>Unlimited movies, TV shows and more</h1>
+          <h4 class="lead">Starts at ₹149. Cancel at any time.</h4>
+          <p>Ready to watch? Enter your email to create or restart your membership</p>
+          <form method="POST"   class="form-signin needs-validation" novalidate >
+            <div class="row no-gutters justify-content-center">
+              <div class="col-12 first">
+                <p>In a world spinning fast and loud, Netflix is the quiet whisper that draws you in.</p>
+              </div>                          
+              <div class="col-12 col-lg-9 second form-label-group my-4">
+                <input type="email" id="movie" class="form-control" placeholder="Correo electrónico" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                maxlength="50" minlength="5" required>
+                <div class="valid-feedback"> Perfecto. Sigue con el próximo paso!</div>
+                <div class="invalid-feedback"> El correo es obligatorio. </div>
+                <label for="inputEmail">Search Movie......</label>
+              </div>
+              <div class="col-12 col-lg-3 third my-4">
+                <button class="suscribe" type="submit" onclick="movieSearch()">SEARCH<i class="arrow right"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <div class="section">
+
+      </div>
+<!--------------03 equal section-->
+      <!-- <section>
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-12 col-lg-6 text-lg-left">
+              <h2>Disfruta de Netflix en tu TV.</h2>
+              <p> Smart TV, Playstation, Xbox, Chromecast, Apple TV, reproductores Blu-ray y muchos más.</p>
+            </div>
+            <div class="col-12 col-lg-6">
+              <img src="img/television.png" alt="Responsive image television" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section> -->
+<!---->
+      <!-- <section>
+        <div class="container revers my-5">
+          <div class="row">
+            <div class="col-12 col-lg-6 ml-6 order-first order-lg-last text-lg-left" >
+              <h2>Descárgate tus series favoritas para verlas sin conexión.</h2>
+              <p>Guarda tus títulos favoritos fácilmente para que siempre tengas algo para ver.
+              </p>
+            </div>
+            <div class="col-12 col-lg-6">
+              <img src="img/mobile.png" alt="Responsive image mobile" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section> -->
+<!---->
+      <!-- <section>
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-12 col-lg-6 text-lg-left">
+              <h2>Disfruta en todas partes.</h2>
+              <p>Reproduce en streaming todas las películas y series en tu móvil, tableta, ordenador y TV sin pagar más.
+              </p>
+            </div>
+            <div class="col-12 col-lg-6">
+              <img src="img/devices.png" alt="Responsive image device" class="img-fluid"/>
+            </div>
+          </div>
+        </div>
+      </section> -->
+<!----------------------accordion-->
+      <section>
+        <div class="container">
+          <h3>Some FAQ ?</h3>
+          <div id="accordion" class="mb-5">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" >
+                  What is Netflix’s core business model, and how has it evolved over time?
+                  <svg viewBox="0 0 26 26" class="svg-icon svg-closed rotated" focusable="true" >
+                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                  </svg>
+                </button>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" >
+                <div class="card-body">various devices. Originally launched in 1997 as a DVD rental-by-mail company, Netflix disrupted traditional video rental services by offering a no-late-fee subscription model. In 2007, it made a pivotal shift to online streaming, enabling instant access to digital content and significantly expanding its user base. Over time, Netflix phased out its DVD business and focused entirely on streaming, gradually expanding into international markets with localized content and interfaces. In 2013, it began investing heavily in original content production (Netflix Originals), transforming itself from a distributor to a global content creator.
+                </div>
+                <div class="card-body">
+                  This move enhanced brand loyalty and reduced dependence on third-party licenses. More recently, Netflix introduced ad-supported subscription tiers to attract price-sensitive users and diversify its revenue streams. Today, its business model centers on delivering value through exclusive content, personalized recommendations, and a seamless user experience on a global scale
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
+                  How does Netflix use data and analytics to drive content decisions and user engagement?
+                  <svg viewBox="0 0 26 26" class="svg-icon svg-closed rotated" focusable="true" >
+                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                  </svg>
+                </button>
+              </div>
+              <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion" >
+                <div class="card-body">
+                  Netflix leverages advanced data analytics to track user behavior, including viewing history, watch time, search patterns, and content ratings. This data helps identify audience preferences and predict which genres, actors, or themes will perform well. These insights directly influence content acquisition, production, and personalized recommendations for each user.
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What strategies has Netflix used to expand globally and penetrate new markets?
+                  <svg viewBox="0 0 26 26" class="svg-icon svg-closed rotated" focusable="true">
+                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                  </svg>
+                </button>
+              </div>
+              <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Netflix has used a mix of localization, partnerships, and content strategy to expand globally. It localizes its platform by offering content in multiple languages, including subtitles and dubbing, and customizes the user interface for regional preferences. It also invests heavily in local original productions to appeal to diverse audiences across different cultures.
+                </div>
+                <div class="card-body">
+                  TTo strengthen its presence, Netflix forms strategic partnerships with telecom providers, device manufacturers, and smart TV brands, making access easier in various markets <abbr title="iPhone Operating System">iOS</abbr>, It also uses flexible pricing strategies, including mobile-only plans in countries like India, to attract cost-sensitive users. Combined, these strategies have helped Netflix build a strong global footprint.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <button  class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"  >
+                  How does Netflix manage partnerships with telecom providers, device manufacturers, and ISPs to grow its user base?
+                  <svg viewBox="0 0 26 26" class="svg-icon svg-closed rotated" focusable="true" >
+                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                  </svg>
+                </button>
+              </div>
+              <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+                  Netflix strategically partners with telecom providers, device manufacturers, and internet service providers (ISPs) to increase accessibility and drive subscriber growth. Through telecom bundles, Netflix is often included in mobile or broadband plans, making it easier for users to access the service without signing up separately or paying upfront.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                  What are the major risks Netflix faces in terms of content licensing and regulation in different regions?
+                  <svg viewBox="0 0 26 26" class="svg-icon svg-closed rotated" focusable="true" >
+                    <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z" ></path>
+                  </svg>
+                </button>
+              </div>
+              <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordion" >
+                <div class="card-body">
+                  Netflix faces significant risks in content licensing and regional regulations that can impact its global operations. Content licensing costs are high and competitive, often involving short-term deals with studios that may later launch their own platforms. Losing popular licensed content can reduce subscriber retention and affect user satisfaction.
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </section>
+    </main>
+    <!---footer---------->
+    <footer class="text-center navbar-dark">
+ 
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+       
+        <div class="me-5 d-none d-lg-block">
+          <span>Thanks for visiting on my Website.<strong> DevaTech</strong></span>
+        </div>
+       
+        <div>
+          <a href="/" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="/" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="/" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="/" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="/" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="/" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+       
+      </section>
+     
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+        
+          <div class="row mt-3">
+          
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Text Util
+              </h6>
+              <p>
+                Hello! Friend this is an text util website that performs some specific task on the enter text in the inpute box.
+              </p>
+            </div>
+          
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            
+              <h6 class="text-uppercase fw-bold mb-4">
+                Products
+              </h6>
+              <p>
+                <a href="/" class="text-reset" style="text-decoration:none;">Python</a>
+              </p>
+              <p>
+                <a href="/" class="text-reset" style="text-decoration:none;">Django</a>
+              </p>
+              <p>
+                <a href="/" class="text-reset" style="text-decoration:none;">Bootstrap</a>
+              </p>
+              <p>
+                <a href="/" class="text-reset" style="text-decoration:none;">ReatJs</a>
+              </p>
+            </div>
+         
+    
+           
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+           
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="https://youtube.com/@devanandrai9390?si=OeQlqITyHfbU0noa" style="text-decoration:none;" target='_blank' class="text-reset">Youtube</a>
+              </p>
+              <p>
+                <a href="https://www.instagram.com/devanand_._rai/profilecard/?igsh=MTFlbmphaWV5bWpjNg==" class="text-reset" style="text-decoration:none;" target='_blank'>InstaGram</a>
+              </p>
+              <p>
+                <a href="https://devanandrai.github.io/devanand/" class="text-reset" style="text-decoration:none;" target='_blank'>PortFolio</a>
+              </p>
+              <p>
+                <a href="https://www.linkedin.com/in/devanand-rai-b27809255" class="text-reset" style="text-decoration:none;" target='_blank'>LinkedIn</a>
+              </p>
+            </div>
+           
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> Maharajganj, Uttar Pradesh, India</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                devanandrai3260@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 91-6395332921</p>
+              <p><i class="fas fa-print me-3"></i> + 91-99566*****</p>
+            </div>
+            
+          </div>
+        
+        </div>
+      </section>
+      
+      <div class="text-center p-4">
+        © 2025 Copyright:
+        <a class="text-reset fw-bold" target='_blank' href="https://www.instagram.com/devanand_._rai/profilecard/?igsh=MTFlbmphaWV5bWpjNg==">DevaTech</a>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"  crossorigin="anonymous" ></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
