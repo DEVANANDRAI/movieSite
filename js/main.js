@@ -22,7 +22,7 @@ $('svg').click(function() {
 
 
  
-let api="https://imdb.iamidiotareyoutoo.com/search?q=thriller"
+let api="https://imdb.iamidiotareyoutoo.com/search?q=horror"
 const getData=(api)=>{
   const response= fetch(api)
 response.then((value)=>{
