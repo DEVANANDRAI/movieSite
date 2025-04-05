@@ -21,21 +21,8 @@ $('svg').click(function() {
 });
 
 
-// $(function(){
-//     $('.form-group').floatingLabel();
-//   });
-
-//   $('.form-group').floatingLabel({
-//       floatingLabelClass:'floating-label',
-//       floatingLabelOnClass:'floating-label-on',
-//       floatingInputClass:'floating-input'
-//     });
-
-//   $('.form-group').floatingLabel({
-//       floatingStyle:'primary'
-//     });
-
-let api="https://imdb.iamidiotareyoutoo.com/search?q=all"
+ 
+let api="https://imdb.iamidiotareyoutoo.com/search?q="
 const getData=(api)=>{
   const response= fetch(api)
 response.then((value)=>{
